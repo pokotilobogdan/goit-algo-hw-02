@@ -35,10 +35,10 @@ def is_brakets_sym(string):
         
         # Якщо в кінці стек порожній, то всі дужки виявились симетричними. Інакше - несиметричними
         
-        if len(stack_left) == 0:
-            return "Симетрично"
-        else:
-            return "Несиметрично"
+    if len(stack_left) == 0:
+        return "Симетрично"
+    else:
+        return "Несиметрично"
 
 while True:
     string = input("Введіть рядок з дужками та іншими символами: ")
